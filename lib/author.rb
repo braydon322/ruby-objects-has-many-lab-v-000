@@ -7,4 +7,11 @@ class Author
     @posts = []
   end
 
+  def add_post(post)
+    post.author = self
+    @posts << post
+    # @@song_count += 1
+    @posts
+  end
+
 end
