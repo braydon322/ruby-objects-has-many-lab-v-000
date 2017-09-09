@@ -12,7 +12,7 @@ class Song
   end
 
   def artist
-    self.artist
+    @title.artist
   end
 
 
