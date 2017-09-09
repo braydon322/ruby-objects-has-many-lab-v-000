@@ -14,4 +14,12 @@ class Author
     @posts
   end
 
+  def add_post_by_title(post)
+    new_post = Post.new(post)
+    new_post.author = self
+    @posts << new_post
+    # @@song_count += 1
+    @songs
+  end
+
 end
