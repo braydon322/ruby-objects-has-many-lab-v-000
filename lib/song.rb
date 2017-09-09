@@ -13,7 +13,6 @@ class Song
 
   def artist
     artist
-    binding.pry
   end
 
 
