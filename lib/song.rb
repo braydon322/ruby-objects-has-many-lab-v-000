@@ -8,7 +8,7 @@ class Song
   end
 
   def artist
-    song.artist
+    self
   end
 
 end
