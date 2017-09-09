@@ -8,7 +8,7 @@ class Song
   end
 
   def artist
-    new_song.artist
+    song.artist
   end
 
 end
