@@ -18,8 +18,8 @@ class Artist
     # new_song = Song.new(song)
 
     song.artist = self
-    @songs << song
-    @counter += 1 # @@artists[@name] = song
+    @songs << song 
+    # @@artists[@name] = song
     @songs
   end
 
@@ -27,7 +27,6 @@ class Artist
     new_song = Song.new(song_name)
     new_song.artist = self
     @songs << new_song
-    @counter += 1
     # @@artists[@name] = song
     @songs
   end
