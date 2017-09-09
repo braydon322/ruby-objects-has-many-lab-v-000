@@ -12,7 +12,6 @@ class Song
   end
 
   def artist
-    binding.pry
   @artist
   end
 
