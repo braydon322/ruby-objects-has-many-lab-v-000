@@ -19,7 +19,7 @@ class Author
     new_post.author = self
     @posts << new_post
     # @@song_count += 1
-    @songs
+    @posts
   end
 
 end
