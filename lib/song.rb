@@ -13,5 +13,5 @@ class Song
     @artist_name
   end
 
-  
+
 end
