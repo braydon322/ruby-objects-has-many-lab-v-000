@@ -13,7 +13,7 @@ class Post
   end
 
   def author_name
-    if defined? != nil
+    if defined? self.author.name == nil
       self.author.name
     else
       nil
