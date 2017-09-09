@@ -16,6 +16,7 @@ class Artist
     Song.new(song_name)
     song_name.artist = @name
     @songs << song_name
+    song_name
   end
 
 end
