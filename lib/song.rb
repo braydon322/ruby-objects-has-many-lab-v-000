@@ -11,6 +11,7 @@ class Song
 
   def artist
     @artist_name
+    binding.pry
   end
 
 
