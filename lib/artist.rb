@@ -30,6 +30,9 @@ class Artist
     @songs
   end
 
+  def song_count
+  end
+
 
 
 
