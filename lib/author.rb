@@ -28,4 +28,8 @@ class Author
     @@post_count
   end
 
+  def name 
+    @name
+  end
+
 end
