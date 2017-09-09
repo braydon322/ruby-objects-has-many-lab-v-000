@@ -28,7 +28,9 @@ class Artist
     @songs << new_song
     # @@artists[@name] = song
     @songs
+    binding.pry
   end
+
 
 
 
