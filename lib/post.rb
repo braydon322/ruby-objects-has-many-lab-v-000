@@ -13,7 +13,7 @@ class Post
   end
 
   def author_name
-    self.author.name
+    defined? self.author.name
     # binding.pry
   end
 end
