@@ -7,4 +7,8 @@ class Song
     @title = title
   end
 
+  def artist 
+    new_song.artist
+  end
+
 end
