@@ -13,11 +13,11 @@ class Post
   end
 
   def author_name
-    if defined? self.author.name == nil
-      nil
-    else
+    # if defined? self.author.name == nil
+    #   nil
+    # else
       self.author.name
-    end
+    # end
     # binding.pry
   end
 end
