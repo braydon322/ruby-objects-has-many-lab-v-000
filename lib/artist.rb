@@ -3,6 +3,8 @@ require'pry'
 class Artist
   attr_accessor :name
 
+  @@artists = {}
+
   def initialize(name)
     @name = name
     @songs = []
@@ -16,8 +18,8 @@ class Artist
     # new_song = Song.new(song)
     song.artist = self.name
     @songs << song
+    @@artists[@name] = song
     @songs
-
     binding.pry
   end
 
