@@ -13,7 +13,7 @@ class Song
 
 
   def artist
-    @artist
+    @artist.self
   end
 
 end
