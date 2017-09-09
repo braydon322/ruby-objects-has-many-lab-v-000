@@ -7,8 +7,13 @@ class Song
     @title = title
   end
 
+  def artist=(artist_name)
+    @artist = artist_name
+  end
+
+  
   def artist
-    self.artist_name
+    @artist
   end
 
 end
