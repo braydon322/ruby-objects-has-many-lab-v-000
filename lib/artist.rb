@@ -22,6 +22,6 @@ class Artist
     # new_song
   end
 
-  
+
 
 end
