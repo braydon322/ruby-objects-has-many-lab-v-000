@@ -18,8 +18,6 @@ class Artist
     new_song.artist = self.name
     @songs << new_song
     @songs
-
-    binding.pry
     # new_song = Song.new(song_name)
     # new_song.artist = @name
     # @songs << new_song
