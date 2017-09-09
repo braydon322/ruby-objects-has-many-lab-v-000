@@ -16,7 +16,9 @@ class Post
     # if defined? self.author.name == nil
     #   nil
     # else
+    if self.author
       self.author.name
+    end
     # end
     # binding.pry
   end
