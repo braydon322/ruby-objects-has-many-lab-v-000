@@ -20,7 +20,6 @@ class Artist
     @songs << song
     @@artists[@name] = song
     @songs
-    binding.pry
   end
 
 
